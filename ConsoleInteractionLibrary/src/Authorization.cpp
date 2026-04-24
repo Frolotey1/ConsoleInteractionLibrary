@@ -16,7 +16,7 @@ void Authorization::run() {
     if (authorization_name == db_name && authorization_password == db_password) {
         std::cout << "Добро пожаловать, " << authorization_name << "!" << std::endl;
     } else {
-        std::cerr << "Неверное имя пользователя или пароль" << std::endl;
+        std::cerr << "Ошибка ввода данных" << std::endl;
     }
     menu_runner.test();
 }
