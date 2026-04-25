@@ -14,7 +14,7 @@ void ChangeUser::run() {
     auto [old_name, old_password] = get_from_database_and_change(change_user_name, change_user_password);
 
     if (old_name.empty() || old_password.empty()) {
-        std::cerr << "Пользователь не найден или данные неверны" << std::endl;
+        std::cerr << "Ошибка данных" << std::endl;
         return;
     }
 
