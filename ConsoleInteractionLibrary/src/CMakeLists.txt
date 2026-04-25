@@ -12,8 +12,8 @@ add_executable(ConsoleInteractionLibrary main.cpp
     Registration.h Registration.cpp
     Loginsystem.h Loginsystem.cpp
     ChangeUser.h ChangeUser.cpp
-    Deletepath.h Deletepath.cpp
-    Deleteuser.h Deleteuser.cpp
+    DeletePath.h DeletePath.cpp
+    DeleteUser.h DeleteUser.cpp
     Menu.h Menu.cpp
     MenuRunner.h MenuRunner.cpp
     test/AllTests.cpp
