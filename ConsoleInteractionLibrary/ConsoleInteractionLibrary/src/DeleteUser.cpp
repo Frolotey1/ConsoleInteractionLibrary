@@ -36,7 +36,7 @@ bool DeleteUser::delete_user(const std::string &name) {
         if (space_pos != std::string::npos) {
             std::string current_name = line.substr(0, space_pos);
             if (current_name == name) {
-                found = true;
+                found = true; 
             } else {
                 keep_lines.push_back(line);
             }
