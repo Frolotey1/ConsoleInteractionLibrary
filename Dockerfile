@@ -1,6 +1,6 @@
-FROM debian:trixie
+FROM debian:trixie-slim
 
-RUN apt-get update && apt-get install -y g++ make libboost-all-dev && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y g++ make libboost-test-dev && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
