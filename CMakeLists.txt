@@ -6,19 +6,16 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(ConsoleInteractionLibrary src/main.cpp
-    src/Authorization.h src/Authorization.cpp
-    src/Input.h src/Input.cpp
-    src/Libraries.h
-    src/Registration.h src/Registration.cpp
-    src/Loginsystem.h src/Loginsystem.cpp
-    src/ChangeUser.h src/ChangeUser.cpp
-    src/DeletePath.h src/DeletePath.cpp
-    src/DeleteUser.h src/DeleteUser.cpp
-    src/Menu.h src/Menu.cpp
-    src/MenuRunner.h src/MenuRunner.cpp
+    include/Input.h
+    include/Output.h
+    include/ConsoleInput.h src/ConsoleInput.cpp
+    include/ConsoleOutput.h src/ConsoleOutput.cpp
+    include/InputDialog.h
+    include/Menu.h src/Menu.cpp
+    include/MenuRunner.h src/MenuRunner.cpp
+    include/Validators.h
     test/AllTests.cpp
 )
-target_include_directories(ConsoleInteractionLibrary PRIVATE src)
 
 include(GNUInstallDirs)
 install(TARGETS ConsoleInteractionLibrary

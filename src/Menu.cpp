@@ -1,7 +1,8 @@
-#include "Menu.h"
+#include "../include/Menu.h"
 
-Menu::Menu() = default;
-Menu::Menu(const std::string& title) : _title(title) {}
+Menu::Menu(const std::string& title, Output& out, Input& in)
+    : title(title), output(out), input(in), running(true) {}
+
 void Menu::add_item(const std::string& name, std::function<void()> action) {
     items.push_back({name, action});
 }
@@ -11,23 +12,23 @@ void Menu::add_exit_item(const std::string& name) {
 void Menu::run() {
     running = true;
     while (running) {
-        std::cout << std::setw(60) << std::right << _title << std::endl;
+        output.write_line("\t\t" + title);
+
         for (std::size_t i = 0; i < items.size(); ++i) {
-            std::cout << (i + 1) << ") " << items[i].first << '\n';
+            output.write_line(std::format("{}) {}",i + 1,items[i].first));
         }
 
-        std::cout << "Выберите опцию: ";
-        std::size_t choice;
-        std::cin >> choice;
-        std::cin.ignore();
+        output.write("Выберите опцию: ");
+        std::size_t choice = std::stoi(input.read_line());
 
-        if (choice >= 1 && choice <= items.size())
+        if (choice >= 1 && choice <= items.size()) {
             items[choice - 1].second();
-        else
-            std::cerr << "Неверный выбор" << std::endl;
-
+        } else {
+            output.write_line("Неверный выбор");
+        }
     }
 }
+
 void Menu::exit() {
     running = false;
 }

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary
+CMAKE_SOURCE_DIR = /home/fr1zb3e/ConsoleInteractionLibrary
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug
+CMAKE_BINARY_DIR = /home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ConsoleInteractionLibrary.dir/depend.make
@@ -73,169 +73,94 @@ CMakeFiles/ConsoleInteractionLibrary.dir/codegen:
 .PHONY : CMakeFiles/ConsoleInteractionLibrary.dir/codegen
 
 CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
-CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/main.cpp
+CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o: /home/fr1zb3e/ConsoleInteractionLibrary/src/main.cpp
 CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o -c /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o -c /home/fr1zb3e/ConsoleInteractionLibrary/src/main.cpp
 
 CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.i"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/main.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.i
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/ConsoleInteractionLibrary/src/main.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.i
 
 CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.s"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/main.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.s
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/ConsoleInteractionLibrary/src/main.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.s
 
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Authorization.cpp
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o -c /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Authorization.cpp
+CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
+CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o: /home/fr1zb3e/ConsoleInteractionLibrary/src/ConsoleInput.cpp
+CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o -c /home/fr1zb3e/ConsoleInteractionLibrary/src/ConsoleInput.cpp
 
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.i"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Authorization.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.i
+CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/ConsoleInteractionLibrary/src/ConsoleInput.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.i
 
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.s"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Authorization.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.s
+CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/ConsoleInteractionLibrary/src/ConsoleInput.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.s
 
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Input.cpp
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o -c /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Input.cpp
+CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
+CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o: /home/fr1zb3e/ConsoleInteractionLibrary/src/ConsoleOutput.cpp
+CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o -c /home/fr1zb3e/ConsoleInteractionLibrary/src/ConsoleOutput.cpp
 
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.i"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Input.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.i
+CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/ConsoleInteractionLibrary/src/ConsoleOutput.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.i
 
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.s"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Input.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.s
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Registration.cpp
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o -c /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Registration.cpp
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.i"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Registration.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.i
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.s"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Registration.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.s
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Loginsystem.cpp
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o -c /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Loginsystem.cpp
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.i"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Loginsystem.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.i
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.s"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Loginsystem.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.s
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
-CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/ChangeUser.cpp
-CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o -c /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/ChangeUser.cpp
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.i"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/ChangeUser.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.i
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.s"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/ChangeUser.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.s
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
-CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/DeletePath.cpp
-CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o -c /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/DeletePath.cpp
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.i"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/DeletePath.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.i
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.s"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/DeletePath.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.s
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
-CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/DeleteUser.cpp
-CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o -c /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/DeleteUser.cpp
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.i"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/DeleteUser.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.i
-
-CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.s"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/DeleteUser.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.s
+CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/ConsoleInteractionLibrary/src/ConsoleOutput.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.s
 
 CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
-CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Menu.cpp
+CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o: /home/fr1zb3e/ConsoleInteractionLibrary/src/Menu.cpp
 CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o -c /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o -c /home/fr1zb3e/ConsoleInteractionLibrary/src/Menu.cpp
 
 CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.i"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Menu.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.i
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/ConsoleInteractionLibrary/src/Menu.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.i
 
 CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.s"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Menu.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.s
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/ConsoleInteractionLibrary/src/Menu.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.s
 
 CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
-CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/MenuRunner.cpp
+CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o: /home/fr1zb3e/ConsoleInteractionLibrary/src/MenuRunner.cpp
 CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o -c /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/MenuRunner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o -c /home/fr1zb3e/ConsoleInteractionLibrary/src/MenuRunner.cpp
 
 CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.i"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/MenuRunner.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.i
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/ConsoleInteractionLibrary/src/MenuRunner.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.i
 
 CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.s"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/MenuRunner.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.s
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/ConsoleInteractionLibrary/src/MenuRunner.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.s
 
 CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/flags.make
-CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/test/AllTests.cpp
+CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o: /home/fr1zb3e/ConsoleInteractionLibrary/test/AllTests.cpp
 CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o -c /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/test/AllTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o -MF CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o.d -o CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o -c /home/fr1zb3e/ConsoleInteractionLibrary/test/AllTests.cpp
 
 CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.i"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/test/AllTests.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.i
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fr1zb3e/ConsoleInteractionLibrary/test/AllTests.cpp > CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.i
 
 CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.s"
-	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/test/AllTests.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.s
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fr1zb3e/ConsoleInteractionLibrary/test/AllTests.cpp -o CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.s
 
 # Object files for target ConsoleInteractionLibrary
 ConsoleInteractionLibrary_OBJECTS = \
 "CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o" \
-"CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o" \
-"CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o" \
-"CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o" \
-"CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o" \
-"CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o" \
-"CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o" \
-"CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o" \
+"CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o" \
+"CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o" \
 "CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o" \
 "CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o" \
 "CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o"
@@ -244,20 +169,15 @@ ConsoleInteractionLibrary_OBJECTS = \
 ConsoleInteractionLibrary_EXTERNAL_OBJECTS =
 
 ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o
-ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o
-ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o
-ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o
-ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o
-ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o
-ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o
-ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o
+ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o
+ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o
 ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o
 ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o
 ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o
 ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/build.make
 ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/compiler_depend.ts
 ConsoleInteractionLibrary: CMakeFiles/ConsoleInteractionLibrary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ConsoleInteractionLibrary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ConsoleInteractionLibrary"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ConsoleInteractionLibrary.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -269,6 +189,6 @@ CMakeFiles/ConsoleInteractionLibrary.dir/clean:
 .PHONY : CMakeFiles/ConsoleInteractionLibrary.dir/clean
 
 CMakeFiles/ConsoleInteractionLibrary.dir/depend:
-	cd /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles/ConsoleInteractionLibrary.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fr1zb3e/ConsoleInteractionLibrary /home/fr1zb3e/ConsoleInteractionLibrary /home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug /home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug /home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles/ConsoleInteractionLibrary.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ConsoleInteractionLibrary.dir/depend
 

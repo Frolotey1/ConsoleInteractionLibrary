@@ -8,17 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Authorization.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o.d"
-  "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/ChangeUser.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o.d"
-  "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/DeletePath.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o.d"
-  "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/DeleteUser.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o.d"
-  "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Input.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o.d"
-  "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Loginsystem.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o.d"
-  "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Menu.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o.d"
-  "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/MenuRunner.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o.d"
-  "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/Registration.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o.d"
-  "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src/main.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o.d"
-  "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/test/AllTests.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o.d"
+  "/home/fr1zb3e/ConsoleInteractionLibrary/src/ConsoleInput.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o.d"
+  "/home/fr1zb3e/ConsoleInteractionLibrary/src/ConsoleOutput.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o.d"
+  "/home/fr1zb3e/ConsoleInteractionLibrary/src/Menu.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/Menu.cpp.o.d"
+  "/home/fr1zb3e/ConsoleInteractionLibrary/src/MenuRunner.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.o.d"
+  "/home/fr1zb3e/ConsoleInteractionLibrary/src/main.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/src/main.cpp.o.d"
+  "/home/fr1zb3e/ConsoleInteractionLibrary/test/AllTests.cpp" "CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/test/AllTests.cpp.o.d"
   "" "ConsoleInteractionLibrary" "gcc" "CMakeFiles/ConsoleInteractionLibrary.dir/link.d"
   )
 

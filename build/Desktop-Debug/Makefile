@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary
+CMAKE_SOURCE_DIR = /home/fr1zb3e/ConsoleInteractionLibrary
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug
+CMAKE_BINARY_DIR = /home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles /home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -174,149 +174,53 @@ ConsoleInteractionLibrary/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/build
 .PHONY : ConsoleInteractionLibrary/fast
 
-src/Authorization.o: src/Authorization.cpp.o
-.PHONY : src/Authorization.o
+src/ConsoleInput.o: src/ConsoleInput.cpp.o
+.PHONY : src/ConsoleInput.o
 
 # target to build an object file
-src/Authorization.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.o
-.PHONY : src/Authorization.cpp.o
+src/ConsoleInput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.o
+.PHONY : src/ConsoleInput.cpp.o
 
-src/Authorization.i: src/Authorization.cpp.i
-.PHONY : src/Authorization.i
+src/ConsoleInput.i: src/ConsoleInput.cpp.i
+.PHONY : src/ConsoleInput.i
 
 # target to preprocess a source file
-src/Authorization.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.i
-.PHONY : src/Authorization.cpp.i
+src/ConsoleInput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.i
+.PHONY : src/ConsoleInput.cpp.i
 
-src/Authorization.s: src/Authorization.cpp.s
-.PHONY : src/Authorization.s
+src/ConsoleInput.s: src/ConsoleInput.cpp.s
+.PHONY : src/ConsoleInput.s
 
 # target to generate assembly for a file
-src/Authorization.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Authorization.cpp.s
-.PHONY : src/Authorization.cpp.s
+src/ConsoleInput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleInput.cpp.s
+.PHONY : src/ConsoleInput.cpp.s
 
-src/ChangeUser.o: src/ChangeUser.cpp.o
-.PHONY : src/ChangeUser.o
+src/ConsoleOutput.o: src/ConsoleOutput.cpp.o
+.PHONY : src/ConsoleOutput.o
 
 # target to build an object file
-src/ChangeUser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.o
-.PHONY : src/ChangeUser.cpp.o
+src/ConsoleOutput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.o
+.PHONY : src/ConsoleOutput.cpp.o
 
-src/ChangeUser.i: src/ChangeUser.cpp.i
-.PHONY : src/ChangeUser.i
-
-# target to preprocess a source file
-src/ChangeUser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.i
-.PHONY : src/ChangeUser.cpp.i
-
-src/ChangeUser.s: src/ChangeUser.cpp.s
-.PHONY : src/ChangeUser.s
-
-# target to generate assembly for a file
-src/ChangeUser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/ChangeUser.cpp.s
-.PHONY : src/ChangeUser.cpp.s
-
-src/DeletePath.o: src/DeletePath.cpp.o
-.PHONY : src/DeletePath.o
-
-# target to build an object file
-src/DeletePath.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.o
-.PHONY : src/DeletePath.cpp.o
-
-src/DeletePath.i: src/DeletePath.cpp.i
-.PHONY : src/DeletePath.i
+src/ConsoleOutput.i: src/ConsoleOutput.cpp.i
+.PHONY : src/ConsoleOutput.i
 
 # target to preprocess a source file
-src/DeletePath.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.i
-.PHONY : src/DeletePath.cpp.i
+src/ConsoleOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.i
+.PHONY : src/ConsoleOutput.cpp.i
 
-src/DeletePath.s: src/DeletePath.cpp.s
-.PHONY : src/DeletePath.s
-
-# target to generate assembly for a file
-src/DeletePath.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/DeletePath.cpp.s
-.PHONY : src/DeletePath.cpp.s
-
-src/DeleteUser.o: src/DeleteUser.cpp.o
-.PHONY : src/DeleteUser.o
-
-# target to build an object file
-src/DeleteUser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.o
-.PHONY : src/DeleteUser.cpp.o
-
-src/DeleteUser.i: src/DeleteUser.cpp.i
-.PHONY : src/DeleteUser.i
-
-# target to preprocess a source file
-src/DeleteUser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.i
-.PHONY : src/DeleteUser.cpp.i
-
-src/DeleteUser.s: src/DeleteUser.cpp.s
-.PHONY : src/DeleteUser.s
+src/ConsoleOutput.s: src/ConsoleOutput.cpp.s
+.PHONY : src/ConsoleOutput.s
 
 # target to generate assembly for a file
-src/DeleteUser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/DeleteUser.cpp.s
-.PHONY : src/DeleteUser.cpp.s
-
-src/Input.o: src/Input.cpp.o
-.PHONY : src/Input.o
-
-# target to build an object file
-src/Input.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.o
-.PHONY : src/Input.cpp.o
-
-src/Input.i: src/Input.cpp.i
-.PHONY : src/Input.i
-
-# target to preprocess a source file
-src/Input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.i
-.PHONY : src/Input.cpp.i
-
-src/Input.s: src/Input.cpp.s
-.PHONY : src/Input.s
-
-# target to generate assembly for a file
-src/Input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Input.cpp.s
-.PHONY : src/Input.cpp.s
-
-src/Loginsystem.o: src/Loginsystem.cpp.o
-.PHONY : src/Loginsystem.o
-
-# target to build an object file
-src/Loginsystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.o
-.PHONY : src/Loginsystem.cpp.o
-
-src/Loginsystem.i: src/Loginsystem.cpp.i
-.PHONY : src/Loginsystem.i
-
-# target to preprocess a source file
-src/Loginsystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.i
-.PHONY : src/Loginsystem.cpp.i
-
-src/Loginsystem.s: src/Loginsystem.cpp.s
-.PHONY : src/Loginsystem.s
-
-# target to generate assembly for a file
-src/Loginsystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Loginsystem.cpp.s
-.PHONY : src/Loginsystem.cpp.s
+src/ConsoleOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/ConsoleOutput.cpp.s
+.PHONY : src/ConsoleOutput.cpp.s
 
 src/Menu.o: src/Menu.cpp.o
 .PHONY : src/Menu.o
@@ -365,30 +269,6 @@ src/MenuRunner.s: src/MenuRunner.cpp.s
 src/MenuRunner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/MenuRunner.cpp.s
 .PHONY : src/MenuRunner.cpp.s
-
-src/Registration.o: src/Registration.cpp.o
-.PHONY : src/Registration.o
-
-# target to build an object file
-src/Registration.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.o
-.PHONY : src/Registration.cpp.o
-
-src/Registration.i: src/Registration.cpp.i
-.PHONY : src/Registration.i
-
-# target to preprocess a source file
-src/Registration.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.i
-.PHONY : src/Registration.cpp.i
-
-src/Registration.s: src/Registration.cpp.s
-.PHONY : src/Registration.s
-
-# target to generate assembly for a file
-src/Registration.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleInteractionLibrary.dir/build.make CMakeFiles/ConsoleInteractionLibrary.dir/src/Registration.cpp.s
-.PHONY : src/Registration.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -451,33 +331,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... ConsoleInteractionLibrary"
-	@echo "... src/Authorization.o"
-	@echo "... src/Authorization.i"
-	@echo "... src/Authorization.s"
-	@echo "... src/ChangeUser.o"
-	@echo "... src/ChangeUser.i"
-	@echo "... src/ChangeUser.s"
-	@echo "... src/DeletePath.o"
-	@echo "... src/DeletePath.i"
-	@echo "... src/DeletePath.s"
-	@echo "... src/DeleteUser.o"
-	@echo "... src/DeleteUser.i"
-	@echo "... src/DeleteUser.s"
-	@echo "... src/Input.o"
-	@echo "... src/Input.i"
-	@echo "... src/Input.s"
-	@echo "... src/Loginsystem.o"
-	@echo "... src/Loginsystem.i"
-	@echo "... src/Loginsystem.s"
+	@echo "... src/ConsoleInput.o"
+	@echo "... src/ConsoleInput.i"
+	@echo "... src/ConsoleInput.s"
+	@echo "... src/ConsoleOutput.o"
+	@echo "... src/ConsoleOutput.i"
+	@echo "... src/ConsoleOutput.s"
 	@echo "... src/Menu.o"
 	@echo "... src/Menu.i"
 	@echo "... src/Menu.s"
 	@echo "... src/MenuRunner.o"
 	@echo "... src/MenuRunner.i"
 	@echo "... src/MenuRunner.s"
-	@echo "... src/Registration.o"
-	@echo "... src/Registration.i"
-	@echo "... src/Registration.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

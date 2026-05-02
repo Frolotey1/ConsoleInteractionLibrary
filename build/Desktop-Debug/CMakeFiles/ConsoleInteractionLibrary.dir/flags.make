@@ -4,7 +4,7 @@
 # compile CXX with /bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/src
+CXX_INCLUDES = 
 
 CXX_FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
 

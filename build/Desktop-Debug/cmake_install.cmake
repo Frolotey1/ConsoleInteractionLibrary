@@ -1,4 +1,4 @@
-# Install script for directory: /home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary
+# Install script for directory: /home/fr1zb3e/ConsoleInteractionLibrary
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ConsoleInteractionLibrary"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/ConsoleInteractionLibrary")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/ConsoleInteractionLibrary")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ConsoleInteractionLibrary" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ConsoleInteractionLibrary")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -61,7 +61,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/install_local_manifest.txt"
+  file(WRITE "/home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -77,6 +77,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/fr1zb3e/SaveFiles/ConsoleInteractionLibrary/build/Desktop-Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/fr1zb3e/ConsoleInteractionLibrary/build/Desktop-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
