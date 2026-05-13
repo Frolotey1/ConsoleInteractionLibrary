@@ -1,0 +1,16 @@
+.git
+.gitignore
+*.md
+*.png
+*.jpg
+*.o
+*.out
+outputfile
+run_tests
+app
+build/
+.vscode/
+.idea/
+*.tar
+*.zip
+.DS_Store
