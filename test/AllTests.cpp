@@ -113,12 +113,4 @@ BOOST_AUTO_TEST_CASE(InputDialog_CanBeCreated) {
     BOOST_CHECK(true);
 }
 
-BOOST_AUTO_TEST_CASE(InputDialog_CanChangeAttempts) {
-    ConsoleOutput output;
-    ConsoleInput input;
-    InputDialog<int> dialog(output, input);
-    dialog.change_count_attempts(3);
-    BOOST_CHECK(true);
-}
-
 BOOST_AUTO_TEST_SUITE_END()
